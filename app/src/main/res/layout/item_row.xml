@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Spinner android:id="@+id/pro_list"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".33">
+
+        </Spinner>
+        <EditText
+            android:id="@+id/singleQty"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".33"
+            />
+        <EditText
+            android:id="@+id/singleRate"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".33"
+            />
+
+        <TextView
+            android:id="@+id/singleTotal"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".33"
+            />
+
+    </TableRow>
+
+</LinearLayout>
